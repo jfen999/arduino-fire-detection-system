@@ -55,6 +55,10 @@ The display and sensor readings update every two seconds.
 - `LiquidCrystal_I2C.h`
 - `DHT.h`
 
+## CAD
+
+The SolidWorks enclosure file is included in this repository.
+
 ## Project Result
 
 The completed system was presented at Gonzaga University's First-Year Design Challenge and won first place.
