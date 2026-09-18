@@ -1,8 +1,8 @@
 # Arduino Fire Detection System
 
-This project was built by my team for Gonzaga University's First-Year Design Challenge. We wanted to build a simple system that could detect a flame while also monitoring temperature and humidity.
+This project was built for Gonzaga University's First-Year Design Challenge. Our goal was to create a system that could detect a flame while also monitoring temperature and humidity.
 
-The final prototype used an Arduino, a flame sensor, a DHT22 temperature and humidity sensor, and a 20x4 LCD inside a custom 3D-printed enclosure. Our project won first place in the competition.
+The final prototype used an Arduino, a flame sensor, a DHT22 temperature and humidity sensor, and a 20x4 LCD. The electronics were housed in a custom enclosure modeled in SolidWorks and 3D printed using glow-in-the-dark filament. Our project won first place in the competition.
 
 ## How It Works
 
@@ -10,7 +10,7 @@ The Arduino continuously reads the flame sensor and DHT22.
 
 Temperature, humidity, and the current fire status are displayed on the LCD. If the flame sensor detects a flame, the display changes from `SAFE` to `FLAME ALERT`.
 
-The same readings are also sent to the Serial Monitor, which was useful for testing the sensors and debugging the system.
+The sensor readings are also sent to the Serial Monitor, which was useful while testing and debugging the system.
 
 ## Hardware
 
@@ -18,8 +18,11 @@ The same readings are also sent to the Serial Monitor, which was useful for test
 - Flame sensor
 - DHT22 temperature and humidity sensor
 - 20x4 I2C LCD
-- Custom 3D-printed enclosure
 - Breadboard and jumper wires
+
+## Enclosure
+
+The system was housed in a custom enclosure modeled in SolidWorks and 3D printed using glow-in-the-dark filament.
 
 ## Connections
 
@@ -44,7 +47,7 @@ The main loop:
 4. Displays either `SAFE` or `FLAME ALERT`.
 5. Prints the sensor readings to the Serial Monitor.
 
-The display is updated every two seconds.
+The display and sensor readings update every two seconds.
 
 ### Libraries Used
 
@@ -54,7 +57,7 @@ The display is updated every two seconds.
 
 ## Project Result
 
-The completed system was presented at our First-Year Design Challenge and won first place.
+The completed system was presented at Gonzaga University's First-Year Design Challenge and won first place.
 
 ## Project Photo
-<img width="630" height="800" alt="IMG_9904" src="https://github.com/user-attachments/assets/c3acaa76-59c0-45e2-b734-da5ab1cd4770" />
+<img width="620" height="740" alt="IMG_9904" src="https://github.com/user-attachments/assets/66a0fb2f-5fbb-47d0-91a6-f23a33bfc49b" />
