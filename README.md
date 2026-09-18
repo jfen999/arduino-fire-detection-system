@@ -1,2 +1,2 @@
 # arduino-fire-detection-system
-Arduino-based fire detection and environmental monitoring system built for Gonzaga's first-year engineering design challenge.
+Arduino-based fire detection and environmental monitoring system built for Gonzaga's First Year Engineering Design Challenge.
